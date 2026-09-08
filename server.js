@@ -4,7 +4,7 @@ const { MongoClient } = require("mongodb");
 const app = express();
 app.use(express.json());
 
-// Replica Set Connection String
+ // Replica Set Connection String
 const url =
   "mongodb://mongodb-0.mongodb:27017,mongodb-1.mongodb:27017/?replicaSet=rs0";
 
