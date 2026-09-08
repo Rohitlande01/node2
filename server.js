@@ -18,7 +18,7 @@ async function start() {
   const db = client.db("codingwale");
   const collection = db.collection("students");
 
-  // Insert Data
+   // Insert Data
   app.get("/add", async (req, res) => {
 
     const result = await collection.insertOne({
