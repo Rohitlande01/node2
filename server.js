@@ -38,7 +38,7 @@ async function start() {
   });
 
   app.listen(3002, () => {
-    console.log("Server running on port 3000");
+    console.log("Server running on port 3002");
   });
 }
 
